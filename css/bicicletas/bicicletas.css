@@ -78,7 +78,8 @@
 }
 
 @media (max-width:800px) {
-  .bicicletas-bg {
+  .bicicletas-bg,
+  .bicicletas-bg:nth-child(odd) {
     background: var(--cor-11);
   }
   .bicicletas {
